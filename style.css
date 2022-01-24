@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    background-color: rgb(194, 191, 166);
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.center {
+    max-width: 750px;
+    margin: auto;
+}
+
+.info img {
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgb(0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+.info p {
+    color: #86889f;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.kiki p {
+    margin-top: -18px;
+}
+
+.miki {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.kyellow {
+    background: #fff9dc;
+}
+
+.kgreen {
+    background: #e5ffe7;
+}
+
+.kred {
+    background: #ffe5e5;
+}
+
+.kblue {
+    background: #e7e5ff;
+}
+
+
+.miki h2 {
+    margin-top: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blueviolet;
+}
+
+.foto {
+    width: 400px;
+    box-shadow: 4px 4px 14px rgb(0, 0, 0.25);
+
+}
+
+.info {
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.text-info {
+    margin-left: 40px;
+}
+
+.sslka {
+    display: flex;
+}
+
+.sslka1 {
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    padding-bottom: 10px;
+
+}
+
+table td:nth-child(2) {
+    color: #86889f;
+}
